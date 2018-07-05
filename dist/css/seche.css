@@ -923,7 +923,7 @@ body .enteteAmiante {
 }
 .enteteAmiante .desc-title{
 	background:none;
-	   
+
   height: 30px;
   font-family: Karbon;
   font-size: 30px;
@@ -964,11 +964,38 @@ body .enteteAmiante {
     top: 40%;
     left: 80%;*/
 }
+
+.active-btn-blue{
+  background-color: #59a5ff;
+	color: white;
+}
+
+#tagbtn1{ 
+	  border-radius: 4px;
+}
+#tagbtn2{
+	  border-radius: 4px;
+
+}
+footer{
+
+}
+
+.accordion-text{
+		margin-left: 4%;
+}
+.activeButton{
+
+}
+
 .accordion-wrap {
     position: relative;
     padding-left: 30px;
     padding-bottom: 30px;
     opacity: 0.3;
+}
+.active-opacity {
+    opacity: 1;
 }
 .accordion-title {
     color: #59A5FF;

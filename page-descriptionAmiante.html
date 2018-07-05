@@ -14,6 +14,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
 <link href="dist/css/font-awesome.css" rel="stylesheet">
@@ -21,6 +22,9 @@
 <link href="dist/css/vertical-responsive-menu.min.css" rel="stylesheet">
 <link href="dist/css/demo.css" rel="stylesheet">
 <link href="dist/css/seche.css" rel="stylesheet">
+
+<script type="text/javascript" src="dist/js/seche.js"></script>
+
 </head>
 <body class="homepage">
 <div class="container-fluid h-100">
@@ -99,29 +103,35 @@
 				</div>
 			</div>
 
-			<div class="enteteAmiante align-text-bottom">
-        <div class="row">
+			<div class="enteteAmiante align-text-bottom" style="padding: 1%; ">
           <div class="col-lg-12 row">
             			<img src="dist/img/enteteimage-descpageAmiante.png" class="enteteAmiante enteteimage-descAmiante img-fluid">
-            <div class="col-lg-8">
-              	<p class="enteteAmiante desc-title"> Solution Amiante</p>
+            <div class="col-lg-6">
+              	<p class="enteteAmiante desc-title"> Solution Amiante </p>
             </div>
-            <div class="col-lg-4">
-              <input type="button" class="btn-TrouverContact float-right space"  value="Trouver mon contact"/>
-              <input type="button" class="btn-devis float-right space"   value="Devis gratuit" />
+            <div class="col-lg-6">
+              <a href="pagedemandedevis-Amiante-Pro.html " class="btn btn-danger btn-lg float-right space"  > <i class="fas fa-map-marker-alt space"></i> Trouver mon contact</a>
+              <a href="#" class="btn btn-primary btn-lg float-right space" id=""> <i class="fas fa-calculator space"></i> Devis gratuit</a>
             </div>
           </div>
-        </div>
 			</div>
 			<div class="page-container" style="padding-right: 50px;background-color: #ffffff;">
+
+<br>
+      <div class="col-lg-12 col-xs-12 text-center">
+        <button type="button" class="btn btn-outline-info btn-sm active-btn-blue " id="tagbtn1" onClick="gtagPP(1);">Je suis un particulier</button>
+        <button type="button" class="btn btn-outline-info btn-sm " id="tagbtn2" onClick="gtagPP(2);">Je suis un professionel</button>
+      </div>
+<br>
+
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="accordion-wrap active">
-						<div class="accordion-title" onclick="gtag(&#39;event&#39;, &#39;seche-connect&#39;, {&#39;event_category&#39;: &#39;amiante-page-particulier&#39;, &#39;event_label&#39;: &#39;accordeon-nos-solutions-particulier&#39;});" style="cursor: pointer;">
+					<div class="accordion-wrap active-opacity" id="firstCompOpacity">
+						<div class="accordion-title"  onclick="gtag(1);" style="cursor: pointer;">
 							<img class="circle" src="dist/img/rond_actif.png" alt="rond">
 							Nos solutions pour les déchets d’amiante des particuliers
 						</div>
-						<div class="accordion-text">
+						<div class="accordion-text" id="firstComp" >
 							<p>
 								<b>Nous intervenons partout en France, quel que soit le volume de vos déchets d’amiante ou leur nature. <br>Nous vous accompagnons dans toutes les étapes&nbsp;:</b>
 								</p><ul>
@@ -129,20 +139,18 @@
 									<li>Elimination des déchets en filières agréées</li>
 									<li>Suivi administratif et logistique&nbsp;: Certificat d’Acceptation Préalable, Bordereau de Suivi des Déchets d’Amiante …</li>
 								</ul>
-							<p></p>
-
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="accordion-wrap">
-						<div class="accordion-title" onclick="gtag(&#39;event&#39;, &#39;seche-connect&#39;, {&#39;event_category&#39;: &#39;amiante-page-particulier&#39;, &#39;event_label&#39;: &#39;accordeon-vos-dechets-particulier&#39;});" style="cursor: pointer;">
+					<div class="accordion-wrap" id="secondCompOpacity">
+						<div class="accordion-title"  onclick="gtag(2);" style="cursor: pointer;">
 							<img class="circle" src="dist/img/rond_actif.png" alt="rond">
 							Vos déchets
 						</div>
-						<div class="accordion-text" style="display: none;">
+						<div class="accordion-text" id="secondComp" style="display: none;">
 							<p>
 								L’amiante est interdite en France depuis 1997. <br>Les déchets contenant de l’amiante sont classés en deux grandes catégories&nbsp;:
 							</p>
@@ -163,17 +171,53 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="accordion-wrap last">
-						<div class="accordion-title" onclick="gtag(&#39;event&#39;, &#39;seche-connect&#39;, {&#39;event_category&#39;: &#39;amiante-page-particulier&#39;, &#39;event_label&#39;: &#39;accordeon-vos-obligations-particulier&#39;});" style="cursor: pointer;">
+					<div class="accordion-wrap last" id="thirdCompOpacity">
+						<div class="accordion-title"  onclick="gtag(3);" style="cursor: pointer;">
 							<img class="circle" src="dist/img/rond_actif.png" alt="rond">
 							Vos obligations
 						</div>
-						<div class="accordion-text" style="display: none;">
+						<div class="accordion-text ppcomp1" id="thirdComp" style="display: none;">
 							<p>
 								Vous devez appliquer les dispositions réglementaires existantes concernant les déchets que vous détenez, car vous en êtes responsables.
 							</p>
 						</div>
 					</div>
+
+
+          <div class="accordion-text ppcomp2" style="display: none;">
+          							<p>
+          								L’entreprise doit appliquer les dispositions réglementaires existantes concernant les déchets qu’elle produit ou détient, car elle en est responsable.
+          							</p>
+          							<p>
+          								Les entreprises du BTP doivent être particulièrement vigilantes car des fibres d’amiante peuvent être libérées lors de la réalisation de chantiers, et entrainer ainsi un risque d’exposition pour les travailleurs.
+          							</p>
+          							<p>
+          								Dans un objectif de prévention des risques, la réglementation impose à toute entreprise concernée de disposer, avant même le démarrage des travaux, d’un certificat d’acceptation préalable (CAP) précisant le mode de traitement des déchets d’amiante qu’elle va produire lors de son intervention.
+          							</p>
+          							<p>
+          								Ce Certificat permet ainsi de garantir la traçabilité du déchet d’amiante jusqu’à son traitement final en filière agréée. Chaque lot de déchet fera ensuite l’objet d’un Bordereau de Suivi des Déchets d’Amiante (BSDA).
+          							</p>
+          							<p>
+          								<b>
+          									Nos équipes vous accompagnent sur tout le processus de gestion et traçabilité administrative.
+          								</b>
+          							</p>
+
+          							<p>
+          								Les interventions de retrait de déchets d’amiante doivent être réalisées dans des conditions de mise en sécurité spécifiques&nbsp;: confinement, Sas de protection des personnels … , et doivent être réalisés par des entreprises disposant des agréments nécessaires et qualifications professionnelles spécifiques.
+          							</p>
+          							<p>
+          								Les déchets d’amiante doivent par ailleurs être conditionnés suivant des normes très strictes afin d’assurer leur parfaite étanchéité lors des phases de transport.
+          							</p>
+
+          							<p>
+          								<b>
+          									Nos équipes, spécialement formées et habilitées vous accompagnent à chaque étape&nbsp;: retrait, conditionnement et logistique de vos déchets d’amiante.
+          								</b>
+          							</p>
+
+          	</div>
+
 				</div>
 			</div>
 		</div>
