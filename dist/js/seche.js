@@ -10,6 +10,13 @@
       $("#tagbtn1").addClass("active-btn-blue");
       $("#tagbtn2").removeClass("active-btn-blue");
       $("#firstComp").css("display","block");
+
+      $("#devis-gratuit").removeAttr('href');
+      $("#devis-gratuit").attr('href', 'pagedemandedevis-Amiante-Pro.html ');
+
+      $("#trouver-mon-contact").removeAttr('href');
+      $("#trouver-mon-contact").attr('href', 'thirdComp');
+
     }else{
       $(".ppcomp1").removeAttr('id');
       $(".ppcomp2").attr('id', 'thirdComp');
