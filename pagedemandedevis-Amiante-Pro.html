@@ -42,7 +42,7 @@
 					</button>
 				</li>		
 				<li class="menu--item">
-					<a href="Site_Solution_En_LigneV1.html" class="list-group-item list-group-item-action">
+					<a href="Home_SEL.html" class="list-group-item list-group-item-action">
 						<i class="icones">
 							<img class="" src="dist/img/accueil.png">
 						</i>
@@ -58,7 +58,7 @@
 					</a>
 				</li>
 				<li class="menu--item">
-					<a href="#" class="list-group-item list-group-item-action">
+					<a href="page" class="list-group-item list-group-item-action">
 						<i class="icones">
 							<img class="" src="dist/img/icone-solution-sante.png">
 						</i>
@@ -112,150 +112,133 @@
 			<!--  recordType  : LED-TRIADIS_WEB -->
 			<input type="hidden" name="recordType" id="recordType" value="012580000006JGy">
 
-		<div class="pageA-container" style="background-color: #ffffff;">
-			<div class="row margin-t-50">
-				<div class="col-xs-12">
-					<h2>Identification du déchet</h2>
-				</div>
-			</div>
-			<div id="identify-waste " class="row opacity">
-				<div class="col-xs-12">
-					<div class="col-sm-4">
-						<div class="form-group">
-				          	<label class="label-control required" for="00N5800000DXOuf">Ville chantier</label>
-				          	<input class="form-control" id="00N5800000DXOuf" name="00N5800000DXOuf" type="text" required="">
-				        </div> 
-
-						<div class="form-group">
-				          	<label class="label-control required" for="00N5800000DXOui">Code postal du chantier</label>
-				          	<input class="form-control" id="00N5800000DXOui" maxlength="5" name="00N5800000DXOui" type="text" pattern="[0-9]{5}" required="">
-				        </div>
-
-				        <div class="form-group">
-				          	<label class="label-control" for="00N5800000DXOud">Nom du Détenteur du déchet</label>
-				          	<input class="form-control" id="00N5800000DXOud" maxlength="100" name="00N5800000DXOud" type="text">
-				        </div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="form-group">
-				          	<label class="label-control required" for="00N5800000DXOue">Déchet</label>
-				          	<input class="form-control" id="00N5800000DXOue" maxlength="50" name="00N5800000DXOue" size="20" type="text" value="Amiante" readonly="" required="">
-				        </div>
-
-						<div class="form-group">
-				          	<label class="label-control" for="00N5800000DXOub">Description de la demande</label>
-				          	<textarea class="form-control" id="00N5800000DXOub" name="00N5800000DXOub" type="text" style="height: 111px;" wrap="soft"></textarea>
-				        </div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="form-group">
-				          	<label class="label-control required" for="00N5800000DXOuc">Quantité</label>
-				          	<input class="form-control" id="00N5800000DXOuc" name="00N5800000DXOuc" type="text" required="">
-				        </div>
-						<div class="form-group">
-					        <label class="label-control required" for="00N5800000DXOuX">Conditionnement</label>
-					        <select class="form-control" id="00N5800000DXOuX" name="00N5800000DXOuX" title="Conditionnement" required="">
-					            <option value="">- Autre -</option>
-					            <option value="Body benne">Body benne</option>
-					            <option value="Big-bag amiante 1m3, scellé et fermé hermétique en col de cygne">Big-bag amiante 1m3, scellé et fermé hermétiquement en col de cygne</option>
-					            <option value="Palette">Palette filmée, cerclée, scellée et sans débord</option>
-					            <option value="Dépôt bag">Dépôt bag</option>
-					            <option value="Colis polyane double peau">Colis polyane double peau</option>
-					        </select>
-				        </div>
-
-				        <div class="form-group">
-					        <label class="label-control" for="00N5800000DXOuW">Dimensions conditionnement</label>
-					        <input class="form-control" id="00N5800000DXOuW" maxlength="30" name="00N5800000DXOuW" size="20" type="text">
+		
+				<div class="pageA-container" style="background-color: #ffffff;">
+					<div class="row margin-t-50">
+						<div class="col-xs-12 ttle">
+							<h2>IDENTIFICATION DU DEMANDEUR</h2>
 						</div>
 					</div>
-				</div>
-			</div>
-
-
-
-
-			<div class="row margin-t-30">
-				<div class="col-xs-12">
-					<h2>Identification du demandeur de la prestation</h2>
-				</div>
-			</div>
-			
-			<div id="identify-asker " class="row opacity">
-				<div class="col-xs-12">
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label class="label-control required" for="company">Raison sociale</label>
-							<input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" required="">
+					<div class="row identify-asker">
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label class="label-control required" for="00N5800000DXOuf">Ville chantier</label>
+								<input class="form-control" id="00N5800000DXOuf" name="00N5800000DXOuf" type="text" required="">
+							</div> 
+							<div class="form-group">
+								<label class="label-control required" for="00N5800000DXOue">Déchet</label>
+								<input class="form-control" id="00N5800000DXOue" maxlength="50" name="00N5800000DXOue" size="20" type="text" value="Amiante" readonly="" required="">
+							</div>
+							<div class="form-group">
+								<label class="label-control" for="00N5800000DXOuW">Dimensions conditionnement</label>
+								<input class="form-control" id="00N5800000DXOuW" maxlength="30" name="00N5800000DXOuW" size="20" type="text">
+							</div>
 						</div>
-
-						<div class="form-group">
-							<label class="label-control required" for="zip">Code Postal</label>
-							<input class="form-control" id="zip" maxlength="5" name="zip" size="20" type="text" required="" pattern="[0-9]{5}">
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label class="label-control required" for="00N5800000DXOui">Code postal du chantier</label>
+								<input class="form-control" id="00N5800000DXOui" maxlength="5" name="00N5800000DXOui" type="text" pattern="[0-9]{5}" required="">
+							</div>
+							<div class="form-group">
+								<label class="label-control required" for="00N5800000DXOuc">Quantité</label>
+								<input class="form-control" id="00N5800000DXOuc" name="00N5800000DXOuc" type="text" required="">
+							</div>
+							<div class="form-group">
+								<label class="label-control required" for="00N5800000DXOuX">Conditionnement</label>
+								<select class="form-control" id="00N5800000DXOuX" name="00N5800000DXOuX" title="Conditionnement" required="">
+									<option value="">- Autre -</option>
+									<option value="Body benne">Body benne</option>
+									<option value="Big-bag amiante 1m3, scellé et fermé hermétique en col de cygne">Big-bag amiante 1m3, scellé et fermé hermétiquement en col de cygne</option>
+									<option value="Palette">Palette filmée, cerclée, scellée et sans débord</option>
+									<option value="Dépôt bag">Dépôt bag</option>
+									<option value="Colis polyane double peau">Colis polyane double peau</option>
+								</select>
+							</div>
 						</div>
+						<div class="col-lg-4">
+							 <div class="form-group">
+								<label class="label-control" for="00N5800000DXOud">Nom du Détenteur du déchet</label>
+								<input class="form-control" id="00N5800000DXOud" maxlength="100" name="00N5800000DXOud" type="text">
+							</div>
+							<div class="form-group">
+								<label class="label-control" for="00N5800000DXOub">Description de la demande</label>
+								<textarea class="form-control" id="00N5800000DXOub" name="00N5800000DXOub" type="text" style="height: 111px;" wrap="soft"></textarea>
+							</div>
 
-						<div class="form-group">
-							<label class="label-control required" for="city">Ville</label>
-							<input class="form-control" id="city" maxlength="40" name="city" size="20" type="text" required="">
 						</div>
-
+					</div>
+					
+						<div class="row margin-t-50">
+							<div class="col-xs-12 ttle">
+								<h2>IDENTIFICATION DU DEMANDEUR DE LA PRESTATION</h2>
+							</div>
+						</div>
+						<div class="row identify-asker">
+							<div class="col-lg-4">
+								<div class="form-group">
+									<label class="label-control required" for="company">Raison sociale</label>
+									<input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" required="">
+								</div>
+								<div class="form-group">
+									<label class="label-control required" for="email">E-mail</label>
+									<input class="form-control" id="email" maxlength="80" name="email" size="20" required="" type="text">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="form-group">
+									<label class="label-control required" for="last_name">Nom</label>
+									<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" required="" type="text">
+								</div>
+								<div class="form-group">
+									<label class="label-control required" for="city">Ville</label>
+									<input class="form-control" id="city" maxlength="40" name="city" size="20" type="text" required="">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="form-group">
+									<label class="label-control required" for="zip">Code Postal</label>
+									<input class="form-control" id="zip" maxlength="5" name="zip" size="20" type="text" required="" pattern="[0-9]{5}">
+								</div>
+								<div class="form-group">
+									<label class="label-control" for="00N5800000DYW1x">Secteur d'activité</label>
+									<select class="form-control" id="00N5800000DYW1x" name="00N5800000DYW1x" title="activity">
+										<option value="Secteur Autre">- Autre -</option>
+										<option value="Administration">Secteur administration/Association</option>
+										<option value="Secteur artisanal">Secteur artisanal</option>
+										
+										<option value="Secteur BTP">Secteur BTP</option>
+										<option value="Collectivité">Secteur collectivité</option>
+										<option value="Secteur industriel">Secteur industriel</option>
+										<option value="Profession Libérale">Secteur Profession Libérale</option>
+										<option value="Secteur Santé Privée">Secteur Santé Privée</option>
+										
+									</select>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-sm-12">
+							<label>
+								<input id="00N5800000DLEho" name="00N5800000DLEho" type="checkbox" value="1">
+								Je souhaite être contacté par téléphone
+							</label>
+						</div>
 						
-					</div>
-
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label class="label-control required" for="last_name">Nom</label>
-							<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" required="" type="text">
+						<div class="text-right">
+							<div class="mention">
+								* Champs obligatoires
+							</div>
 						</div>
 
-						<div class="form-group">
-							<label class="label-control required" for="email">E-mail</label>
-							<input class="form-control" id="email" maxlength="80" name="email" size="20" required="" type="text">
+						<div class="row">
+							<div class="text-right col-sm-12 margin-t-50 margin-b-50">
+								<button class="btn-envoyer" type="submit">
+									ENVOYER
+								</button>
+							</div>
 						</div>
-
-						<div class="form-group">
-					        <label class="label-control" for="00N5800000DYW1x">Secteur d'activité</label>
-					        <select class="form-control" id="00N5800000DYW1x" name="00N5800000DYW1x" title="activity">
-					        	<option value="Secteur Autre">- Autre -</option>
-								<option value="Administration">Secteur administration/Association</option>
-								<option value="Secteur artisanal">Secteur artisanal</option>
-								
-								<option value="Secteur BTP">Secteur BTP</option>
-								<option value="Collectivité">Secteur collectivité</option>
-								<option value="Secteur industriel">Secteur industriel</option>
-								<option value="Profession Libérale">Secteur Profession Libérale</option>
-								<option value="Secteur Santé Privée">Secteur Santé Privée</option>
-								
-					        </select>
-				        </div>
-					</div>
-					
-					
+			
 				</div>
-			</div>
-			<div class="text-right">
-				<div class="mention">
-					* Champs obligatoires
-				</div>
-			</div>
-
-			<div class="row margin-t-20">
-				<div class="col-sm-12">
-					<label>
-						<input id="00N5800000DXOua" name="00N5800000DXOua" value="1" type="checkbox">&nbsp;Je souhaite recevoir la newsletter de Séché Environnement 
-					</label>
-				</div>
-			</div>
-			<div class="row">
-				<div class="text-right col-sm-12 margin-t-50 margin-b-50">
-					<button class="btn-envoyer" type="submit">
-						Envoyer
-					</button>
-				</div>
-			</div>
-		</div>
 			<div class="row margin-t-20">
 				<div class="col-sm-12 txt-rgpd" style="text-align: center;">
 					<p class ="txt-rgpd" style="color: #989898 ;font-weight: 500;">Protection des données à caractère personnel</p>
