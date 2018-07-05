@@ -1,0 +1,245 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+<title>Séché Connect - Extranet</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>	
+
+
+<link href="dist/css/font-awesome.css" rel="stylesheet">
+<link href="dist/css/font-awesome.min.css" rel="stylesheet">
+<link href="dist/css/vertical-responsive-menu.min.css" rel="stylesheet">
+<link href="dist/css/demo.css" rel="stylesheet">
+<link href="dist/css/seche.css" rel="stylesheet">
+</head>
+<body class="homepage">
+<div class="container-fluid h-100">	
+	<div class="row h-100">
+		<header class="header clearfix">
+			<button type="button" id="toggleMenu" class="toggle_menu">
+			  <i class="fa fa-bars"></i>
+			</button>   
+		</header>	
+		<nav class="vertical_nav col p-0">		
+			<ul id="js-menu" class="menu">
+				<li class="menu--item  menu--item__has_sub_menu">
+					<a href="#"><div class="logo p-4"></div></a>
+				</li>
+				<li class="">
+					<button id="collapse_menu" class="collapse_menu">			
+						<img src="dist/img/icon_menu.png" alt="" class="">				
+						<!--<i class="collapse_menu--icon  fa fa-fw"></i>-->				
+					</button>
+				</li>		
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/accueil.png">
+						</i>
+						<span>Accueil</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/dechets.png">
+						</i>
+						<span>Mes déchets</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/bsd.png">
+						</i>
+						<span>Mes BSD</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/factures.png">
+						</i>
+						<span>Mes factures</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/bilans.png">
+						</i>
+						<span>Mes bilans</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/documents.png">
+						</i>
+						<span>Les documents réglementaires</span>
+					</a>
+				</li>
+				<li class="menu--item">
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="icones">
+							<img class="" src="dist/img/comptes.png">
+						</i>
+						<span>Gérer les comptes utilisateurs</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="wrapper p-0 H-100 w-100">							
+			<div class="row no-gutters breadcrumb-user bg-dark">				
+				<div class="col col-md-12 d-flex justify-content-end block-user">
+					<ul class="nav text-right">
+						<li class="nav-item">										
+							<a class="nav-link" href="#"><i class="fa fa-user-o mr-2" aria-hidden="true"></i>Bienvenue <strong>Utilisateur 1</strong></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-cog mr-2" aria-hidden="true"></i>Mon compte</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-power-off mr-2" aria-hidden="true"></i>Déconnexion</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="entete align-text-bottom">
+				<span class="overlay align-text-bottom">
+					<h1>Bienvenue dans votre <span class="secondary-color">espace client</h1>					
+				</span>					
+			</div>
+			<div class="row m-0">
+				<div class="col-lg px-5 py-4">
+					<section class="row icones-mid p-3">
+						<div class="col-lg text-center pt-4">
+							<a href="#">
+								<i><img class="icones-mid" src="dist/img/dechets-mid.png"></i>
+								<h2 class="mt-3">Gérer mes déchets</h2>			
+							</a>				
+						</div>
+						<div class="col-lg text-center pt-4">
+							<a href="#">
+								<i><img class="icones-mid" src="dist/img/bsd-mid.png"></i>
+								<h2 class="mt-3">Voir mes derniers BSD</h2>			
+							</a>				
+						</div>
+						<div class="col-lg text-center pt-4">
+							<a href="#">
+								<i><img class="icones-mid" src="dist/img/factures-mid.png"></i>
+								<h2 class="mt-3">Consulter mes factures</h2>			
+							</a>				
+						</div>
+						<div class="col-lg text-center pt-4">
+							<a href="#">
+								<i><img class="icones-mid" src="dist/img/bilans-mid.png"></i>
+								<h2 class="mt-3">Suivre mes bilans</h2>			
+							</a>
+						</div>
+					</section>
+					<section class="row actus p-4">
+						<div class="card w-100">
+							<div class="card-header">
+								Actualités
+							</div>
+							<div class="card-body row p-4">			
+								<div class="col-lg img">
+									<div class="date">05/10/2017</div>
+									<img src="dist/img/actualite.jpg">
+								</div>
+								<div class="col-lg content">
+									<a href="#">
+										<h3>Inauguration de la première chaudière CSR développée en France</h3>
+										<p class="card-text">Jeudi 5 octobre, en présence de nombreux acteurs politiques et économiques, ainsi que des salariés du site de Changé, Joël Séché a eu la fierté d’inaugurer la première...</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>							
+				</div>
+				<div class="col-lg px-5 py-4">
+					<section class="row recherche p-4">
+						<div class="card w-100">
+							<div class="card-header">
+								Recherche sur les 3 derniers mois
+							</div>
+							<div class="card-body p-4">			
+								<form class="form-inline">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</form>
+							</div>
+						</div>
+					</section>
+					<section class="row docs-dispos p-4">
+						<div class="card w-100">
+							<div class="card-header">
+								Derniers documents disponibles
+							</div>
+							<div class="card-body p-4">			
+								<ul class="list-group">
+								  <li class="list-group-item"><a href="#"><i class="fa fa-angle-right mr-2" aria-hidden="true"></i>Facture N°1712-0184FC-SL1</a><span class="date float-right">21/01/2018</span></li>
+								  <li class="list-group-item"><a href="#"><i class="fa fa-angle-right mr-2" aria-hidden="true"></i>Registre chronologique janvier 2017</a><span class="date float-right">21/01/2018</span></li>
+								  <li class="list-group-item"><a href="#"><i class="fa fa-angle-right mr-2" aria-hidden="true"></i>BSD N° DOM17/ELB21-12-25</a><span class="date float-right">21/01/2018</span></li>
+								  <li class="list-group-item"><a href="#"><i class="fa fa-angle-right mr-2" aria-hidden="true"></i>Facture N° 1712-0185FC-SL1</a><span class="date float-right">21/01/2018</span></li>
+								  <li class="list-group-item"><a href="#"><i class="fa fa-angle-right mr-2" aria-hidden="true"></i>CAP N° SLA1109260006</a><span class="date float-right">21/01/2018</span></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section class="row contact p-4">
+						<div class="card w-100">
+								<div class="card-header">
+									Mon contact privilégié
+								</div>
+								<div class="card-body p-4 row">			
+									<div class="col-auto img">
+										<img src="dist/img/visuel-contact.jpg">
+									</div>
+									<div class="col-auto content">
+										<p><strong>Pierre DURAND</strong></p>
+										<p><i class="fa fa-envelope mr-2" aria-hidden="true"></i>pdurand@groupe-seche.fr</p>
+										<p><i class="fa fa-phone mr-2" aria-hidden="true"></i>01 40 40 40 40</p>
+										<p><i class="fa fa-mobile mr-2" aria-hidden="true"></i>06 40 40 40 40</p>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<footer class="footer text-light px-4 py-2">
+					<div class="row">
+						<div class="col col-6">
+							<img src="dist/img/logo-seche-footer.png"><a href="#" class="ml-5">Suivez-nous sur <i class="fa fa-linkedin-square ml-2" aria-hidden="true"></i></a>
+						</div>
+						<div class="col col-6 d-flex justify-content-end">
+							<ul class="nav">
+								<li class="nav-item">										
+									<a class="nav-link" href="#">Mentions légales</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">&copy; Copyright 2018 Séché Environnement</a>
+								</li>					
+							</ul>
+						</div>		
+					</div>		
+				</footer>
+			</div>
+	</div>
+	
+</div>
+
+  <script src="dist/js/vertical-responsive-menu.min.js"></script>
+</body>
+</html>
