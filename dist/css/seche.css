@@ -974,8 +974,22 @@ body .enteteAmiante {
 	  border-radius: 4px;
 }
 #tagbtn2{
-	  border-radius: 4px; 
+	  border-radius: 4px;
 }
+
+#devis-gratuit-sante{
+	background-color: #012248;
+	color : white;
+}
+
+.colorBlue{
+	color: #012248;
+}
+.roundBlue{
+	color: #012248;
+	font-size: 80%;
+}
+
 footer{
 
 }
