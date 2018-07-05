@@ -12,10 +12,10 @@
       $("#firstComp").css("display","block");
 
       $("#devis-gratuit").removeAttr('href');
-      $("#devis-gratuit").attr('href', 'pagedemandedevis-Amiante-Pro.html ');
+      $("#devis-gratuit").attr('href', 'pageDemandeDevis-amiante-Part.html');
 
       $("#trouver-mon-contact").removeAttr('href');
-      $("#trouver-mon-contact").attr('href', 'thirdComp');
+      $("#trouver-mon-contact").attr('href', '#');
 
     }else{
       $(".ppcomp1").removeAttr('id');
@@ -25,6 +25,12 @@
       $("#tagbtn2").addClass("active-btn-blue");
       $("#tagbtn1").removeClass("active-btn-blue");
       $("#firstComp").css("display","block");
+
+      $("#devis-gratuit").removeAttr('href');
+      $("#devis-gratuit").attr('href', 'pagedemandedevis-Amiante-Pro.html');
+
+      $("#trouver-mon-contact").removeAttr('href');
+      $("#trouver-mon-contact").attr('href', '#');
     }
  }
 
