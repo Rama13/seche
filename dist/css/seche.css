@@ -79,6 +79,19 @@ body {
 	font-size: 18px;
 	background-color:#585857;
 }
+.space{
+	margin:1%;
+
+}
+.ajustement{
+    margin-right: 0px;
+    padding-right: -15;
+    padding-right: 0px;
+    right: -15;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
 .bg-light {
     background-color: #fff!important;
 }
@@ -194,7 +207,7 @@ ul, li {
 	padding:0;
 }
 .breadcrumb-user .icones {
-	margin:0 0.5em;	
+	margin:0 0.5em;
 }
 .breadcrumb-user  a,
 .breadcrumb-user .breadcrumb-item.active {
@@ -204,7 +217,7 @@ ul, li {
 .breadcrumb-user  a:hover {
 	color:#ff6f00 !important;
 }
-.breadcrumb-item {	
+.breadcrumb-item {
 	padding: .5rem 1.5rem;
 }
 .navbar-dark .navbar-brand {
@@ -250,7 +263,7 @@ ul, li {
   left: 0;
   z-index: 1030;
 }
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
 	.block-breadcrumb {
 		display:none !important;
 	}
@@ -312,7 +325,7 @@ background-color: #204479!important;
 	text-align:center;
 }
 .menu-xl .icon-menu img {
-	
+
 	transition:0.3s;
 }
 .menu-light .icon-menu img {
@@ -388,7 +401,7 @@ header {
 }
 .nav text-left{
 	margin-left:0;
-	
+
 }
 /* homepage bloc icones */
 
@@ -402,11 +415,11 @@ header {
     padding: 1em;
     border: 4px solid #ff6f00;
 }
-.icones-mid a:hover i {    
-    background: #2b4475;    
+.icones-mid a:hover i {
+    background: #2b4475;
     transition:0.5s;
 }
-.icones-mid a:hover {    
+.icones-mid a:hover {
    text-decoration:none;
 }
 .icones-mid a h2 {
@@ -454,7 +467,7 @@ header {
 .homepage .recherche .form-control {
 	width:80%;
 }
-.recherche .btn {	
+.recherche .btn {
 	background:transparent;
 	color:#ff6f00;
 	font-size:1.5em;
@@ -521,7 +534,7 @@ footer.footer a i {
 	padding:1em 0 0 0;
 	font-size:1.2em;
 	font-weight:500;
-	text-align:center;	
+	text-align:center;
 }
 .login .card-footer {
 	background:#e8f0fb;
@@ -547,7 +560,7 @@ body .entete {
 	background: url(../img/img-fond.png) no-repeat center top;
 	background-size:cover;
     font-family: 'latothin';
-	color:#fff;	
+	color:#fff;
 	padding:0;
 }
 body .entete .logo-secheconnect{
@@ -557,21 +570,21 @@ body .entete .logo-secheconnect{
   margin-left: 15%;
   margin-top: 5rem;
   background: none
-	
+
 
 }
 
-body.homepage .entete h1 {	
-	font-size:2.5rem;	
+body.homepage .entete h1 {
+	font-size:2.5rem;
 }
 body .entete .overlay {
-	
+
 	background: -moz-linear-gradient(top, rgba(17,33,59,0) 0%, rgba(17,33,59,1) 94%, rgba(17,33,59,1) 99%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(17,33,59,0) 0%,rgba(17,33,59,1) 94%,rgba(17,33,59,1) 99%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(17,33,59,0) 0%,rgba(17,33,59,1) 94%,rgba(17,33,59,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0011213b', endColorstr='#11213b',GradientType=0 ); /* IE6-9 */	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0011213b', endColorstr='#11213b',GradientType=0 ); /* IE6-9 */
 	display: block;
-    width: 100%;   
+    width: 100%;
     padding: 5rem 2rem 1rem 2rem;
 }
 body .entete .align-text-bottom .text1{
@@ -588,9 +601,9 @@ body .entete .align-text-bottom .text1{
   letter-spacing: normal;
   position: absolute;
     top: 8rem;
-  
-  
-	
+
+
+
 }
 body .entete .align-text-bottom .text2{
 	background:none;
@@ -608,14 +621,14 @@ body .entete .align-text-bottom .text2{
   top: 11rem;
 }
 body .entete .icon{
-	
+
 	background:none;
 	position: absolute;
     top: 10rem;
     left: 70rem;
 }
 body .entete .align-text-bottom .text3{
-	
+
   background:none;
   width: 80px;
   height: 24px;
@@ -632,7 +645,7 @@ body .entete .align-text-bottom .text3{
   Top: 13.5rem;
 }
 body .entete .align-text-bottom .text4{
-	
+
   background:none;
   width: 80px;
   height: 24px;
@@ -649,7 +662,7 @@ body .entete .align-text-bottom .text4{
   Top: 13.5rem;
 }
 body .entete .align-text-bottom .text5{
-	
+
   background:none;
   width: 80px;
   height: 24px;
@@ -666,7 +679,7 @@ body .entete .align-text-bottom .text5{
   Top: 13.5rem;
 }
 body .entete .align-text-bottom .text6{
-	
+
   background:none;
   width: 80px;
   height: 24px;
@@ -687,13 +700,13 @@ body.page .entete h1 {
 	font-size:1.8em;
 	padding-top:1rem;
 }
-body.page .entete .overlay {	
+body.page .entete .overlay {
     padding: 1rem 2rem .1rem 2rem;
 }
 body.page .entete .overlay .titre {
 	padding:0 0 .5rem;
 }
-body.page .entete .breadcrumb {	
+body.page .entete .breadcrumb {
     background:none;
 	font-size:1rem;
 	color:white;
@@ -704,10 +717,10 @@ body.page .entete .breadcrumb-item.active,
 body.page .entete .breadcrumb-item:before {
 	color:white;
 }
-body.page .entete .breadcrumb-item {	
+body.page .entete .breadcrumb-item {
 	padding: 0 !important;
 }
-	
+
 /* Card */
 
 .amiante-image{
@@ -717,28 +730,28 @@ body.page .entete .breadcrumb-item {
 
 }
 .card1 .card-amiante {
-   
+
   height: 273px;
   background-color: #5aa5ff;
- 
+
 }
 .card1 .card-sante{
-	 
+
   height: 273px;
   background-color: #012248;
-  
 
-	
+
+
 }
 .card2{
-	 
+
   height: 134px;
  text-align:center;
- 
-	
+
+
 }
 .sant-img{
-	 
+
   height: 156px;
   object-fit: contain;
 }
@@ -756,9 +769,9 @@ width: 224.6px;
   margin-left: 10em;
   top: 10%;
 position: absolute;
-	
-	
-	
+
+
+
 }
 .card1 .card-amiante .txt{
 	  width: 267.3px;
@@ -774,8 +787,8 @@ position: absolute;
       margin-left: 18em;
     top: 30%;
     position: absolute;
-	
-	
+
+
 }
 .card1 .card-amiante .link-part{
   width: 124.3px;
@@ -821,10 +834,10 @@ position: absolute;
       position: absolute;
     top: 10%;
     margin-left: 45%;
-	
+
 }
 .card1 .card-sante .txt{
-	
+
 	width: 233.2px;
   height: 32px;
   font-family: Karbon;
@@ -838,7 +851,7 @@ position: absolute;
 	    margin-left: 46%;
     position: absolute;
     top: 30%;
-	
+
 }
 .card1 .card-sante .link{
 	  width: 166.6px;
@@ -855,7 +868,7 @@ position: absolute;
     margin-left: 47%;
     top: 80%;
 	    background: none;
-	
+
 }
 .title-sol3{
  width: 261.4px;
@@ -869,7 +882,7 @@ position: absolute;
   letter-spacing: normal;
   text-align: center;
   color: #224378;
-	
+
 }
 .btn-contact{
 	  width: 114.8px;
@@ -879,7 +892,7 @@ position: absolute;
    font-size: 14px;
    color: #ffffff;
    text-align: center;
-	
+
 }
 .card {
     background-color: transparent;
@@ -893,13 +906,13 @@ body .enteteAmiante {
 	background-image: linear-gradient(96deg, #204479, #5aa5ff);
 	background-size:cover;
     font-family: 'latothin';
-	color:#fff;	
+	color:#fff;
 	padding:0;
-	
+
 
 }
 .enteteAmiante .enteteimage-descAmiante{
-    width: auto;
+
     height: 130px;
     object-fit: contain;
     background: none;
@@ -910,7 +923,7 @@ body .enteteAmiante {
 }
 .enteteAmiante .desc-title{
 	background:none;
-	  width: 220px;
+	   
   height: 30px;
   font-family: Karbon;
   font-size: 30px;
@@ -922,9 +935,9 @@ body .enteteAmiante {
   color: #ffffff;
  /* position: absolute;
   top: 44%;*/
-	
-	
-	
+
+
+
 }
 .btn-devis{
   width: 136px;
@@ -939,7 +952,7 @@ body .enteteAmiante {
   left: 70%;*/
 
 }
-.btn-TrouverContact{	
+.btn-TrouverContact{
   width: 182px;
   height: 36px;
   border-radius: 4px;
@@ -974,11 +987,11 @@ body .enteteAmiante {
 	background-image: linear-gradient(96deg, #204479, #5aa5ff);
 	background-size:cover;
     font-family: 'latothin';
-	color:#fff;	
+	color:#fff;
 	padding:0;
 	height:141px;
-	
-	
+
+
 }
 .btn-envoyer{
   width: 142px;
@@ -988,7 +1001,7 @@ body .enteteAmiante {
   text-align:center;
   color:#ffffff;
   margin-bottom:30px;
-	
+
 }
 .txt-rgpd{
   font-family: Karbon;
@@ -1001,7 +1014,7 @@ body .enteteAmiante {
   text-align: center;
   color: #989898;
    background-color: #ededed;
- 
+
 }
 
 /* Page description Santé */
@@ -1012,11 +1025,11 @@ body .enteteAmiante {
     font-family: 'latothin';
 	padding:0;
 	text-align:center;
-	
-	
+
+
 }
 .enteteSante .desc-title{
-	
+
 	 width: 220px;
   height: 30px;
   font-family: Karbon;
@@ -1028,15 +1041,15 @@ body .enteteAmiante {
   letter-spacing: normal;
   color: #012248;
   color: var(--navy);
- 
-	
-	
+
+
+
 }
 .enteteimage-descSante{
 
 	    height: 9vw;
 
-	
+
 }
 .enteteSante .btn-devis{
 
@@ -1048,10 +1061,10 @@ body .enteteAmiante {
 	font-weight: 600;
 	position: relative;
     left: 30%
-	
+
 }
 .enteteSante .btn-TrouverContact{
-	
+
 	/*left: 70%;
     position: relative;*/
   border-radius: 2px;
@@ -1062,14 +1075,14 @@ body .enteteAmiante {
    position: relative;
    left: 30%
 
-	
+
 }
 /* page demande de devis santé*/
 .entete-dd-Sante{
 	 background-color: #ffef00;
 	 height: 141px;
-	
-	
+
+
 }
 .ttle-enteteSante{
 
@@ -1086,8 +1099,8 @@ body .enteteAmiante {
   height: 30px;
   position:absolute;
   top:4.5em;
-  
- 
+
+
 }
 .btn-envoyer-yellow{
   width: 142px;
@@ -1100,16 +1113,16 @@ body .enteteAmiante {
   color: var(--navy);
   font-weight:600;
   margin-bottom:30px;
-  
-	
+
+
 }
 /* page demande de devis demandes diverses*/
 .entete-dd-demandediverse{
   height:141px;
   background-color: #5aa5ff;
 
-	
-	
+
+
 }
 .ttle-enteteDemandDiv{
 
@@ -1126,10 +1139,10 @@ body .enteteAmiante {
    top: 4.5em;
    line-height: 0.7;
     margin-left: 2em;
-	
+
 }
 .btn-envoyer-blue2{
-	
+
   width: 142px;
   height: 38px;
   border-radius: 4px;
@@ -1138,13 +1151,13 @@ body .enteteAmiante {
   font-size:13px;
   font-weight:600;
   margin-bottom:30px;
-	
+
 }
 /* page contact sante*/
 .section-contact{
 	height: 500px;
     background-color: #ffffff;
-		
+
 }
 .ttle-contact p{
   width: 221px;
@@ -1174,14 +1187,14 @@ body .enteteAmiante {
 	height: 36px;
 	border-radius: 2px;
   border: solid 1px #9299a3;
-	
+
 }
 .text-right{
 	    text-align: center!important;
-	
+
 }
 .mention{
-	
+
 	text-align: right;
 }
 
@@ -1203,11 +1216,11 @@ body .enteteAmiante {
 .identify-asker{
 	margin-left:50px;
 	margin-top:30px;
-	
-	
+
+
 }
 .ttle h2{
-	
+
 	width: 300px;
     height: 17px;
     font-family: Karbon;
@@ -1221,23 +1234,23 @@ body .enteteAmiante {
     /* color: var(--navy); */
     margin-left: 30px;
     margin-top: 70px;
-	
+
 }
 .label-control .txtarea{
 	height:150px;
-	
+
 }
 
 /* Tables */
 table.table {
 	font-size:0.9rem;
 }
-table.table .thead-dark th {    
+table.table .thead-dark th {
     background-color: #224378;
     border-color: #224378;
 }
 table.table a i {
-	color:#ff6f00;	
+	color:#ff6f00;
 }
 .table-danger, .table-danger>td, .table-danger>th {
     background-color: #ffcbd1;
@@ -1249,15 +1262,15 @@ table.table a i {
     background-color: #ffe4ba;
 }
 
-@media (min-width: 1201px) { 
+@media (min-width: 1201px) {
 
 }
 
-@media (max-width: 1200px) { 
-		
+@media (max-width: 1200px) {
+
 
 }
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	ol.breadcrumb {
 		display:none !important;
 	}
@@ -1265,7 +1278,7 @@ table.table a i {
 		display:none;
 	}
 }
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	header {
 		position: relative;
 		z-index: 999;
@@ -1297,7 +1310,7 @@ table.table a i {
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 	.login h1 {
 		padding:.3em 0;
 		font-size:1.3em;
@@ -1310,9 +1323,6 @@ table.table a i {
 
 
 
-/* Couleurs utilisées 
+/* Couleurs utilisées
 Bleu: #204479
 */
-
-
-
