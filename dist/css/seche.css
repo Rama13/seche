@@ -991,7 +991,9 @@ body .enteteAmiante {
 }
 
 footer{
-
+ bottom:0;
+ position: absolute;
+ width: 87%;
 }
 
 .accordion-text{
