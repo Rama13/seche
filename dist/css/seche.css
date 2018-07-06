@@ -373,6 +373,8 @@ background-color: #204479!important;
 	position:absolute;
 	left:33%;
 }
+
+
 .toggle_menu {
     float: right;
 }
@@ -993,7 +995,7 @@ body .enteteAmiante {
 footer{
  bottom:0;
  position: fixed;
- width: 87%;
+ width: 100%;
 }
 
 .accordion-text{
