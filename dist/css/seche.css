@@ -727,7 +727,10 @@ body.page .entete .breadcrumb-item {
 
   height: 138px;
   object-fit: contain;
-
+    height: 138px;
+    object-fit: contain;
+    margin-left: 2em;
+    margin-top: 1em;
 }
 .card1 .card-amiante {
 
