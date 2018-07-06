@@ -757,8 +757,10 @@ body.page .entete .breadcrumb-item {
 }
 .sant-img{
 
-  height: 156px;
-  object-fit: contain;
+     height: 156px;
+    object-fit: contain;
+    margin-left: 2em;
+    margin-top: 1.5em;
 }
 .card1 .card-amiante .title{
 width: 224.6px;
@@ -1394,6 +1396,17 @@ table.table a i {
 	.login h2 {
 		padding:.5em 0 0 0;
 		font-size:1em;
+	}
+	body .entete .icon{
+
+	display:none;
+	}
+	body .entete .align-text-bottom {
+		display:none;
+
+	}
+	body .entete .align-text-bottom .text1{
+
 	}
 }
 
