@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+
+  <meta http-equiv="X-UA-Compatible " content="IE=edge ">
+  <meta name="description " content=" ">
+  <meta name="author " content=" ">
+  <link rel="icon " href="../../favicon.ico ">
+  <title>Séché Connect - Solution en ligne</title>
+
+  <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css " integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb " crossorigin="anonymous ">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
+  <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.0.13/css/all.css " integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp " crossorigin="anonymous ">
+
+
+  <link href="dist/css/font-awesome.css " rel="stylesheet ">
+  <link href="dist/css/font-awesome.min.css " rel="stylesheet ">
+  <link href="dist/css/vertical-responsive-menu.min.css " rel="stylesheet ">
+  <link href="dist/css/demo.css " rel="stylesheet ">
+  <link href="dist/css/seche.css " rel="stylesheet ">
+
+  <script type="text/javascript " src="dist/js/seche.js "></script>
+</head>
+
+<body class="homepage ">
+  <div class="container-fluid h-100 ">
+    <div class="row h-100 ">
+      <header class="header clearfix ">
+        <button type="button " id="toggleMenu " class="toggle_menu ">
+			  <i class="fa fa-bars "></i>
+			</button>
+      </header>
+      <nav class="vertical_nav col p-0 ">
+        <ul id="js-menu " class="menu ">
+          <li class="menu--item menu--item__has_sub_menu ">
+            <a href="# ">
+              <div class="logo p-4 "></div>
+            </a>
+          </li>
+          <li class=" ">
+            <button id="collapse_menu " class="collapse_menu ">
+						<img src="dist/img/icon_menu.png " alt=" " class=" ">
+						<!--<i class="collapse_menu--icon fa fa-fw "></i>-->
+					</button>
+          </li>
+          <li class="menu--item ">
+            <a href="Site_Solution_En_LigneV1.html " class="list-group-item list-group-item-action ">
+						<i class="icones ">
+							<img class=" " src="dist/img/accueil.png ">
+						</i>
+						<span>Accueil</span>
+					</a>
+          </li>
+          <li class="menu--item ">
+            <a href="page-descriptionAmiante.html " class="list-group-item list-group-item-action ">
+						<i class="icones ">
+							<img class=" " src="dist/img/icone-solution-amiante.png ">
+						</i>
+						<span>Séché connect<br>Solution Amiante</span>
+					</a>
+          </li>
+          <li class="menu--item ">
+            <a href="# " class="list-group-item list-group-item-action ">
+						<i class="icones ">
+							<img class=" " src="dist/img/icone-solution-sante.png ">
+						</i>
+						<span>Séché connect<br>Solution Santé</span>
+					</a>
+          </li>
+          <li class="menu--item ">
+            <a href="# " class="list-group-item list-group-item-action ">
+						<i class="icones ">
+							<img class=" " src="dist/img/dechets.png ">
+						</i>
+						<span>Séché connect<br>Demandes diverses</span>
+					</a>
+          </li>
+
+        </ul>
+      </nav>
+      <div class="wrapper p-0 w-100 ">
+        <div class="row no-gutters breadcrumb-user bg-dark ">
+          <div class="col col-col-6 d-flex block-user ">
+            <a class="nav-link " href="https://www.groupe-seche.com/fr ">Une solution<img class="fa fa-site-seche-o mr-2 " aria-hidden="true " src="dist/img/logo-seche-header.png "></a>
+          </div>
+          <div class="col col-6 d-flex justify-content-end ">
+            <a class="nav-link " href="# "><i class="fa fa-cog mr-2 " aria-hidden="true "></i>Mon compte</a>
+          </div>
+
+        </div>
+        <div class="enteteSante align-text-bottom " style="padding: 1%; ">
+          <div class="col-lg-12 row ">
+            <div class=col-lg-12>
+              <img src="dist/img/enteteimage-descpageSante.png " class="entetesante responsive enteteimage-descSante img-fluid ">
+            </div>
+
+            <div class="col-lg-6 ">
+              <p class="enteteSante desc-title "> Solution Santé </p>
+            </div>
+
+            <div class="col-lg-6 ">
+              <a href="# " class="btn btn-danger float-right space " id="trouver-mon-contact-sante "> <i class="fas fa-map-marker-alt space "></i> Trouver mon contact</a>
+              <a href="# " class="btn float-right space " id="devis-gratuit-sante "> <i class="fas fa-calculator space "></i> Devis gratuit</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="page-container " style="padding-left: 5%;background-color: #ffffff; height:100vh; ">
+          <br><br>
+          <div class="row ">
+            <div class="col-xs-12 ">
+              <div class="accordion-wrap active-opacity " id="firstCompOpacity ">
+                <div class="accordion-title " onclick="gtag(1); " style="cursor: pointer; ">
+                  <i class="fas fa-circle roundBlue "></i> <span class="colorBlue "> 	Vos déchets sont-ils classés DASRI ? </span>
+                </div>
+                <div class="accordion-text colorBlue " id="firstComp ">
+
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td style="padding-right: 20px; ">
+                          <img class="inline " style="width: 93%; " src="https://www.groupe-seche.com/assets/frontend/img/seche-connect/solution-sante/btn_expert.png " alt=" ">
+                        </td>
+                        <td>
+                          <p>
+                          </p>
+                          <p><b>Séché Healthcare, filiale santé de Séché Environnement, c’est plus de 30 ans d’expérience pour la gestion de vos déchets de soins et la garantie de leur traçabilité :</b></p>
+
+                          <li>Accompagnement administratif</li>
+                          <li>Documents de traçabilité des déchets : Bordereaux de Suivi des Déchets (BSD)</li>
+                          <li>Garantie réglementaire : collecte en véhicules conformes et traitement en filières agréés</li>
+                          <li>Certifications : ISO 9001, ISO 14001, OHSAS 18001, ISO 50001 </li>
+                          <p></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-right: 20px; ">
+                          <img class="inline " style="width: 93%; " src="https://www.groupe-seche.com/assets/frontend/img/seche-connect/solution-sante/btn_interlocuteur.png " alt=" ">
+                        </td>
+                        <td>
+                          <p>
+                          </p>
+                          <p><b>Pour l’ensemble des étapes de gestion de vos déchets d’activités de soins (DASRI) : </b></p>
+
+                          <li>Mise à disposition d'emballages normés et agréés Collecteurs à aiguilles, cartons, fûts…</li>
+                          <li>Collecte et échange de vos emballages en fonction de votre production et des obligations règlementaires</li>
+                          <li style="margin-bottom: 12px; ">Transport et traitement vers les filières de traitement agréées, en véhicules conformes aux réglementations </li>
+                          <a href="https://www.newsletter-seche-environnement.com/le-traitement-des-dasri/ " target="_blank " style="background-color: #192546; color: white; padding: 3px; font-size: 17px; "> Banalisation ou incinération ? le traitement des DASRI en questions</a>
+                          <p>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-xs-12 ">
+              <div class="accordion-wrap " id="secondCompOpacity ">
+                <div class="accordion-title colorBlue " onclick="gtag(2); " style="cursor: pointer; ">
+                  <i class="fas fa-circle roundBlue "></i><span class="colorBlue "> Vos déchets </span>
+                </div>
+                <div class="accordion-text colorBlue " id="secondComp " style="display: none; ">
+                  <p>
+                    Le Code de Santé Publique définit par DASRI (Déchets d’Activités de Soins à Risques Infectieux) tous les déchets issus des activités de diagnostic, de suivi et de traitement dans les domaines de la médecine humaine et vétérinaire.<br><br>
+                    <b>Sont classés DASRI :</b>
+                  </p>
+
+                  <li>Les déchets piquants, coupants ou tranchants, exposés ou non à des produits biologiques</li>
+                  <li>Les produits sanguins à usages thérapeutiques partiellement utilisés ou arrivés à péremption</li>
+                  <li>Les déchets anatomiques humains non aisément identifiables </li>
+                  <li>Les déchets présentant un risque infectieux pour d’autres organismes vivants</li>
+
+                  <p>
+                    <b>Sont classés assimilables aux DASRI :</b>
+                  </p>
+                  <p>
+                  </p>
+                  <li>Les déchets issus des activités d’enseignement, de recherche et de production industrielle (médecine humaine et vétérinaire) </li>
+                  <li>les déchets issus des activités de thanatopraxie lorsqu’ils présentent une des caractéristiques présentées précédemment.</li>
+                  <p></p>
+                  <p>
+                    Les déchets assimilés aux DASRI sont soumis aux mêmes obligations réglementaires pour leur gestion.<br>
+                    <b>Séché HealthCare, votre interlocuteur unique, vous apporte une solution globale, agréée et sécurisée, pour la gestion de vos DASRI.</b>
+                  </p>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-xs-12 ">
+              <div class="accordion-wrap last " id="thirdCompOpacity ">
+                <div class="accordion-title colorBlue " onclick="gtag(3); " style="cursor: pointer; ">
+                  <i class="fas fa-circle roundBlue "></i><span class="colorBlue "> Vos obligations </span>
+                </div>
+                <div class="accordion-text colorBlue ppcomp1 " id="thirdComp " style="display: none; ">
+                  <p>
+                    Le producteur ou le détenteur de DASRI doit appliquer les dispositions réglementaires du Code de la Santé Publique (art. R 1335-2 du Code de Santé publique).<br>
+                    <b>Toute personne qui produit ou détient des DASRI est tenue d'en assurer ou d'en faire assurer l'élimination jusqu’au traitement final inclus</b> en filières agréées, et en est responsable.
+                  </p>
+
+                  <p><b>
+ 	Séché HealthCare, une offre globale vous garantissant une prise en charge de vos déchets conforme aux exigences réglementaires, depuis la fourniture des contenants jusqu’à leur élimination en filière agréée. </b></p>
+                  <br> <br>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer text-light px-4 py-2 ">
+          <div class="row col-12">
+            <div class="col-6">
+              <img src="dist/img/logo-seche-footer.png "><a href="# " class="ml-5 ">Suivez-nous sur <i class="fa fa-linkedin-square ml-2 " aria-hidden="true "></i></a>
+            </div>
+            <div class="col-6">
+              <ul class="nav ">
+                <li class="nav-item ">
+                  <a class="nav-link " href="# ">Mentions légales</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="# ">&copy; Copyright 2018 Séché Environnement</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="dist/js/vertical-responsive-menu.min.js "></script>
+  <script src="page-desciption.js " type="text/javascript "></script>
+  <script src="page-desciption2.js " type="text/javascript "></script>
+</body>
+
+</html>
+<style>
+  .vol1 option,
+  .vol2 option,
+  .vol3 option,
+  .vol4 option,
+  .vol5 option {
+    display: none;
+  }
+
+  .vol1 option.label,
+  .vol2 option.label,
+  .vol3 option.label,
+  .vol4 option.label,
+  .vol5 option.label {
+    display: block;
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+
+    // Affiche / Masque les options sous IE
+    $.fn.optVisible = function(show) {
+      return show ?
+        this.filter("span> option").unwrap() : this.filter(":not(span > option)").wrap("<span>").parent().hide();
+    }
+
+
+    // Conditionnement 1 : 00N5800000DLEhZ
+    // Volume 1 : 		   00N5800000DLEhj
+    var $conditionnement = $('#00N5800000DLEhZ');
+    var $volume = $('#00N5800000DLEhj');
+
+    // À la selection du conditionnement
+    $conditionnement.on("change", function() {
+      // On récupère la catégorie du conditionnement
+      var _rel = $(this).val();
+
+      // On réinitialise le selecteur de volume
+      $volume.find("option").attr("style", "");
+      $volume.find("option").attr('disabled', 'disabled').hide();
+      $volume.find("option.montrer").removeClass('montrer');
+      $volume.val("");
+
+      // On désactive le selecteur de volume si le selecteur de conditionnement ne correspond pas
+      if (!_rel) {
+        return $volume.prop("disabled", true);
+      }
+
+      // On affiche les options de volume avec la catégorie de conditionnement correspondante.
+      $volume.find("[rel=" + _rel + "]").removeAttr('disabled').show();
+      $volume.find("[rel=" + _rel + "]").addClass('montrer');
+
+      // Affiche / Maque les volume pour IE
+      $volume.find("option.montrer").optVisible(true);
+      $volume.find("option:not(.montrer)").optVisible(false);
+
+      // Activation du sélécteur de volume
+      $volume.prop("disabled", false);
+    });
+
+    // Conditionnement 2 : 00N5800000DLEha
+    // Volume 2 : 		   00N5800000DLEhk
+    var $conditionnement2 = $('#00N5800000DLEha');
+    var $volume2 = $('#00N5800000DLEhk');
+
+    // À la selection du conditionnement
+    $conditionnement2.on("change", function() {
+      // On récupère la catégorie du conditionnement
+      var _rel = $(this).val();
+
+      // On réinitialise le selecteur de volume
+      $volume2.find("option").attr("style", "");
+      $volume2.find("option").attr('disabled', 'disabled').hide();
+      $volume2.find("option.montrer").removeClass('montrer');
+      $volume2.val("");
+
+      // On désactive le selecteur de volume si le selecteur de conditionnement ne correspond pas
+      if (!_rel) {
+        return $volume2.prop("disabled", true);
+      }
+
+      // On affiche les options de volume avec la catégorie de conditionnement correspondante.
+      $volume2.find("[rel=" + _rel + "]").removeAttr('disabled').show();
+      $volume2.find("[rel=" + _rel + "]").addClass('montrer');
+
+      // Affiche / Maque les volume pour IE
+      $volume2.find("option.montrer").optVisible(true);
+      $volume2.find("option:not(.montrer)").optVisible(false);
+
+      // Activation du sélécteur de volume
+      $volume2.prop("disabled", false);
+    });
+
+    // Conditionnement 3 : 00N5800000DLEhZ
+    // Volume 3 : 		   00N5800000DLEhl
+    var $conditionnement3 = $('#00N5800000DLEhb');
+    var $volume3 = $('#00N5800000DLEhl');
+
+    // À la selection du conditionnement
+    $conditionnement3.on("change", function() {
+      // On récupère la catégorie du conditionnement
+      var _rel = $(this).val();
+
+      // On réinitialise le selecteur de volume
+      $volume3.find("option").attr("style", "");
+      $volume3.find("option").attr('disabled', 'disabled').hide();
+      $volume3.find("option.montrer").removeClass('montrer');
+      $volume3.val("");
+
+      // On désactive le selecteur de volume si le selecteur de conditionnement ne correspond pas
+      if (!_rel) {
+        return $volume3.prop("disabled", true);
+      }
+
+      // On affiche les options de volume avec la catégorie de conditionnement correspondante.
+      $volume3.find("[rel=" + _rel + "]").removeAttr('disabled').show();
+      $volume3.find("[rel=" + _rel + "]").addClass('montrer');
+
+      // Affiche / Maque les volume pour IE
+      $volume3.find("option.montrer").optVisible(true);
+      $volume3.find("option:not(.montrer)").optVisible(false);
+
+      // Activation du sélécteur de volume
+      $volume3.prop("disabled", false);
+    });
+
+    // Conditionnement 4 : 00N5800000DLEhc
+    // Volume 4 : 		   00N5800000DLEhm
+    var $conditionnement4 = $('#00N5800000DLEhc');
+    var $volume4 = $('#00N5800000DLEhm');
+
+    // À la selection du conditionnement
+    $conditionnement4.on("change", function() {
+      // On récupère la catégorie du conditionnement
+      var _rel = $(this).val();
+
+      // On réinitialise le selecteur de volume
+      $volume4.find("option").attr("style", "");
+      $volume4.find("option").attr('disabled', 'disabled').hide();
+      $volume4.find("option.montrer").removeClass('montrer');
+      $volume4.val("");
+
+      // On désactive le selecteur de volume si le selecteur de conditionnement ne correspond pas
+      if (!_rel) {
+        return $volume4.prop("disabled", true);
+      }
+
+      // On affiche les options de volume avec la catégorie de conditionnement correspondante.
+      $volume4.find("[rel=" + _rel + "]").removeAttr('disabled').show();
+      $volume4.find("[rel=" + _rel + "]").addClass('montrer');
+
+      // Affiche / Maque les volume pour IE
+      $volume4.find("option.montrer").optVisible(true);
+      $volume4.find("option:not(.montrer)").optVisible(false);
+
+      // Activation du sélécteur de volume
+      $volume4.prop("disabled", false);
+    });
+
+    // Conditionnement 5 : 00N5800000DLEhd
+    // Volume 5 : 		   00N5800000DLEhn
+    var $conditionnement5 = $('#00N5800000DLEhd');
+    var $volume5 = $('#00N5800000DLEhn');
+
+    // À la selection du conditionnement
+    $conditionnement5.on("change", function() {
+      // On récupère la catégorie du conditionnement
+      var _rel = $(this).val();
+
+      // On réinitialise le selecteur de volume
+      $volume5.find("option").attr("style", "");
+      $volume5.find("option").attr('disabled', 'disabled').hide();
+      $volume5.find("option.montrer").removeClass('montrer');
+      $volume5.val("");
+
+      // On désactive le selecteur de volume si le selecteur de conditionnement ne correspond pas
+      if (!_rel) {
+        return $volume5.prop("disabled", true);
+      }
+
+      // On affiche les options de volume avec la catégorie de conditionnement correspondante.
+      $volume5.find("[rel=" + _rel + "]").removeAttr('disabled').show();
+      $volume5.find("[rel=" + _rel + "]").addClass('montrer');
+
+      // Affiche / Maque les volume pour IE
+      $volume5.find("option.montrer").optVisible(true);
+      $volume5.find("option:not(.montrer)").optVisible(false);
+
+      // Activation du sélécteur de volume
+      $volume5.prop("disabled", false);
+    });
+  });
+</script>
