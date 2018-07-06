@@ -982,6 +982,11 @@ body .enteteAmiante {
 		background-color: #4097ff;
 }
 
+html {
+	width: 100vw;
+}
+
+
 #tagbtn1{
 	  border-radius: 4px;
 }
