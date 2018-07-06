@@ -972,7 +972,12 @@ body .enteteAmiante {
 
 .active-btn-blue{
   background-color: #59a5ff;
-	color: white;  
+	color: white;
+}
+
+.active-btn-blue:hover {
+    color: white;
+		background-color: #4097ff;
 }
 
 #tagbtn1{
@@ -981,6 +986,8 @@ body .enteteAmiante {
 #tagbtn2{
 	  border-radius: 4px;
 }
+
+
 
 .btnGray{
 color: #989898 ;
