@@ -969,7 +969,7 @@ body .enteteAmiante {
 
 .active-btn-blue{
   background-color: #59a5ff;
-	color: white;
+	color: white;  
 }
 
 #tagbtn1{
@@ -977,6 +977,20 @@ body .enteteAmiante {
 }
 #tagbtn2{
 	  border-radius: 4px;
+}
+
+.btnGray{
+color: #989898 ;
+border: 1px solid;
+border-color: #989898  ;
+background-color: white;
+}
+
+.btnBlue{
+	color: #989898 ;
+	border: 1px solid;
+	border-color: #59a5ff;
+	background-color: white;
 }
 
 #devis-gratuit-sante{
