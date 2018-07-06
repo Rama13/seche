@@ -1,7 +1,4 @@
-
-
-
- function gtagPP(pp){
+function gtagPP(pp){
     if( pp==1 ){
       $(".ppcomp1").attr('id', 'thirdComp');
       $(".ppcomp2").removeAttr('id');
