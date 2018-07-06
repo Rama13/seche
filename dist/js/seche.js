@@ -4,8 +4,12 @@ function gtagPP(pp){
       $(".ppcomp2").removeAttr('id');
       $(".ppcomp1").css("display","none");
       $(".ppcomp2").css("display","none");
+
       $("#tagbtn1").addClass("active-btn-blue");
+      $("#tagbtn1").removeClass("btnGray");
       $("#tagbtn2").removeClass("active-btn-blue");
+      $("#tagbtn2").addClass("btnGray");
+
       $("#firstComp").css("display","block");
 
       $("#devis-gratuit").removeAttr('href');
@@ -19,8 +23,12 @@ function gtagPP(pp){
       $(".ppcomp2").attr('id', 'thirdComp');
       $(".ppcomp1").css("display","none");
       $(".ppcomp2").css("display","none");
+
       $("#tagbtn2").addClass("active-btn-blue");
+      $("#tagbtn2").removeClass("btnGray");
       $("#tagbtn1").removeClass("active-btn-blue");
+      $("#tagbtn1").addClass("btnGray");
+
       $("#firstComp").css("display","block");
 
       $("#devis-gratuit").removeAttr('href');
