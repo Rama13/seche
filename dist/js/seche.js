@@ -11,7 +11,7 @@ function code_sante(code){
 "Téléphone": "04.72.79.32.33",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "34 Rue Eugène Hénaff, 69200 Vénissieux"
 },
 {
 "Departement": "2",
@@ -21,7 +21,7 @@ function code_sante(code){
 "Téléphone": "02.99.64.82.64",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "ZA de Gripail 35 590 Saint-Gilles"
 },
 {
 "Departement": "4",
@@ -31,7 +31,7 @@ function code_sante(code){
 "Téléphone": "04.72.79.32.33",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "34 Rue Eugène Hénaff, 69200 Vénissieux"
 },
 {
 "Departement": "8",
@@ -41,7 +41,7 @@ function code_sante(code){
 "Téléphone": "04.72.79.32.33",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "34 Rue Eugène Hénaff, 69200 Vénissieux"
 },
 {
 "Departement": "9",
@@ -51,7 +51,7 @@ function code_sante(code){
 "Téléphone": "04.72.79.32.33",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "34 Rue Eugène Hénaff, 69200 Vénissieux"
 },
 {
 "Departement": "14",
@@ -61,7 +61,7 @@ function code_sante(code){
 "Téléphone": "02.99.64.82.64",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "ZA de Gripail 35 590 Saint-Gilles"
 },
 {
 "Departement": "16",
@@ -71,7 +71,7 @@ function code_sante(code){
 "Téléphone": "02.99.64.82.64",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "ZA d’Anthyllis 86 340 Fleuré"
 },
 {
 "Departement": "18",
@@ -81,7 +81,7 @@ function code_sante(code){
 "Téléphone": "04.72.79.32.33",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "34 Rue Eugène Hénaff, 69200 Vénissieux"
 },
 {
 "Departement": "20",
@@ -101,7 +101,7 @@ function code_sante(code){
 "Téléphone": "",
 "Attributaire de la piste": "Pas d'envoi",
 "Visibilité de la piste": "",
-"Address": ""
+"Address": "/"
 },
 {
 "Departement": "44",
@@ -111,7 +111,7 @@ function code_sante(code){
 "Téléphone": "02.99.64.82.64",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "Valérie",
-"Address": ""
+"Address": "3 Impasse Sirius 44470 CARQUEFOU"
 },
 {
 "Departement": "75",
@@ -131,7 +131,7 @@ function code_sante(code){
 "Téléphone": "",
 "Attributaire de la piste": "",
 "Visibilité de la piste": "",
-"Address": ""
+"Address": "ZA de Gripail 35 590 Saint-Gilles"
 },
 {
 "Departement": "972",
