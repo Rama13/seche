@@ -2326,12 +2326,12 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.sr-only-focusable:active,
+/*.sr-only-focusable:active,
 .sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
   margin: 0;
   overflow: visible;
-  clip: auto;
+  clip: auto;*/
 }

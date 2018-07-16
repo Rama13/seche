@@ -284,7 +284,7 @@ background-color: #204479!important;
 .menu {
     top: 0;
     bottom: 0;
-	-ms-overflow-x:hidden;
+-ms-overflow-x:hidden;
 	overflow:hidden;
 }
 .menu .list-group-item.active {
@@ -797,6 +797,12 @@ position: absolute;
 
 
 }
+
+.action-container {
+		display: flex;
+		justify-content: space-between;
+}
+
 .card1 .card-amiante .link-part{
   width: 124.3px;
   height: 20px;
@@ -918,6 +924,11 @@ body .enteteAmiante {
 
 
 }
+
+.seche-container{
+	overflow-x: hidden;
+}
+
 .enteteAmiante .enteteimage-descAmiante{
 
     height: 130px;
@@ -983,7 +994,7 @@ body .enteteAmiante {
 }
 
 html {
-	width: 100vw;
+
 }
 
 
@@ -1028,7 +1039,6 @@ background-color: white;
 
 footer{
  bottom:0;
- position: fixed;
  width: 100%;
 }
 
@@ -1051,7 +1061,7 @@ footer{
 .accordion-title {
     color: #59A5FF;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 30px;
     margin-bottom: 20px;
     -webkit-user-select: none;
